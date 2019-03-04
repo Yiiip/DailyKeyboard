@@ -48,9 +48,32 @@ public class Sln283 {
                 slow++;
             }
         }
-        for (; slow < len; slow++)
+        for (int i = slow; i < len; i++)
         {
-            nums[slow] = 0;
+            nums[i] = 0;
         }
     }
+
+    public void moveZeroes_2(int[] nums) {
+        int len = nums.length;
+        int k = 0;
+        for (int i = 0; i < len; i++)
+        {
+            if (nums[i] != 0)
+            {
+                if (i != k)
+                {
+                    swap(nums, k, i);
+                }
+                k++;
+            }
+        }
+    }
+
+    private void swap(int nums[], int i, int j) {
+        int tmp = nums[j];
+        nums[j] = nums[i];
+        nums[i] = tmp;
+    }
+
 }

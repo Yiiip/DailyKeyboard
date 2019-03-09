@@ -24,9 +24,7 @@ public class Sln283 {
 //            {
 //                for (int t = i, j = i + 1; j < nums.length; j++, t++)
 //                {
-//                    int tmp = nums[t];
-//                    nums[t] = nums[j];
-//                    nums[j] = tmp;
+//                    swap(nums, t, j);
 //                }
 //            }
 //            else

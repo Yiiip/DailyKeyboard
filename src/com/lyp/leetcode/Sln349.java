@@ -1,6 +1,7 @@
 package com.lyp.leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -22,7 +23,7 @@ import java.util.Set;
 我们可以不考虑输出结果的顺序。
  */
 public class Sln349 {
-    public int[] intersection(int[] nums1, int[] nums2) {
+    public int[] intersection(int[] nums1, int[] nums2) { //18 ms
         ArrayList<Integer> common = new ArrayList<Integer>();
         for (int i = 0; i < nums1.length; i++)
         {
@@ -42,7 +43,7 @@ public class Sln349 {
         return arr;
     }
 
-    public int[] intersection_2(int[] nums1, int[] nums2) {
+    public int[] intersection_2(int[] nums1, int[] nums2) { //3 ms
         int i, j, atMost;
         Set hashset = new HashSet<>();
         if (nums1.length > nums2.length)
@@ -66,5 +67,29 @@ public class Sln349 {
             nums4[i] = nums3[i];
         }
         return nums4;
+    }
+
+    //只看有无的话适合用Set集合
+    public int[] intersection_3(int[] nums1, int[] nums2) { //6 ms
+        Set<Integer> record = new HashSet<>();
+        for (int i = 0; i < nums1.length; i++)
+        {
+            record.add(nums1[i]);
+        }
+        Set<Integer> result = new HashSet<>();
+        for (int i = 0; i < nums2.length; i++)
+        {
+            if (record.contains(nums2[i]))
+            {
+                result.add(nums2[i]);
+            }
+        }
+        int[] ret = new int[result.size()];
+        int i = 0;
+        for (int e : result)
+        {
+            ret[i++] = e;
+        }
+        return ret;
     }
 }

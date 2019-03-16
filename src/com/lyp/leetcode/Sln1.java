@@ -46,7 +46,7 @@ public class Sln1 {
             }
             else
             {
-                map.put(nums[i], i);
+                map.put(nums[i], i); //这里为什么不在程序开始时把Map全部put好？因为可能键会重复
             }
         }
         return null;

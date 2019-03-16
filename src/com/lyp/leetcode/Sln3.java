@@ -26,7 +26,7 @@ public class Sln3 {
             return 0;
 
         int l = 0, r = -1; //滑动窗口为nums[i...j]
-        int[] freq = new int[256]; //记录每个字符出现的频率，若为0则表示没有出现过
+        int[] freq = new int[256]; //记录每个字符出现的频率，若为0则表示没有出现过（由于查找表数据量很少，直接使用array而不是Set了）
         int result = 0;
 
         while (l < s.length())

@@ -7,6 +7,7 @@
 | 0001 | 两数之和 | 数组，哈希表 | ![gif](https://bucket-1257126549.cos.ap-guangzhou.myqcloud.com/20181206161033.gif) |
 | 0003 | 无重复字符的最长子串 | 字符串，双指针，查找表，滑动窗口（不固定长度） | ![gif](https://bucket-1257126549.cos.ap-guangzhou.myqcloud.com/20181210092855.gif) 由于查找表数据量很少，直接使用array而不是Set了 |
 | 0011 | 盛最多水的容器 | 数组，双指针 |  |
+| 0020 | 有效的括号 | 字符串，栈 | ![gif](https://bucket-1257126549.cos.ap-guangzhou.myqcloud.com/20181206161106.gif) |
 | 0026 | 删除排序数组中的重复项 | 数组，双指针 | ![gif](https://bucket-1257126549.cos.ap-guangzhou.myqcloud.com/20181206161124.gif) |
 | 0027 | 移除元素 | 数组，双指针 |  |
 | 0066 | 加一 | 数组 | 也要考虑大数溢出 |

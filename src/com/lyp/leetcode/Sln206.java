@@ -30,10 +30,21 @@ public class Sln206 {
         return pre;
     }
 
+    //递归
+    public ListNode reverseList_2(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+
+        ListNode pre = reverseList_2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return pre;
+    }
+
     public static void main(String[] args) {
         ListNode data = new ListNode(new int[] {1, 2, 3, 4, 5});
         System.out.println(data);
-        ListNode result = new Sln206().reverseList(data);
+        ListNode result = new Sln206().reverseList_2(data);
         System.out.println(result);
     }
 }

@@ -9,36 +9,9 @@ package com.lyp.leetcode;
 输出: 1->2->3->4->5
  */
 
-public class Sln203 {
-    public class ListNode {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-        public ListNode(int[] arr)
-        {
-            if (arr == null || arr.length == 0)
-                throw new IllegalArgumentException("arr can not be empty");
+import com.lyp.leetcode.common.ListNode;
 
-            this.val = arr[0];
-            ListNode cur = this;
-            for (int i = 1; i < arr.length; i++) {
-                cur.next = new ListNode(arr[i]);
-                cur = cur.next;
-            }
-        }
-        @Override
-        public String toString() {
-            StringBuilder str = new StringBuilder();
-            ListNode cur = this;
-            while (cur.next != null)
-            {
-                str.append(cur.val + " -> ");
-                cur = cur.next;
-            }
-            str.append("NULL");
-            return str.toString();
-        }
-    }
+public class Sln203 {
 
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val)

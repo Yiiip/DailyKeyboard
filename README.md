@@ -10,6 +10,7 @@
 | 0015 | 三数之和 | 数组，双指针 | ①在有序的情况下，遍历时注意和前一相比较以跳过重复项<br/>②本题有序的情况下，while(l < r)就成了根据大小而变的滑动窗口 |
 | 0016 | 最接近的三数之和 | 数组，双指针 |  |
 | 0018 | 四数之和 | 数组，双指针，哈希表 |  |
+| 0019 | 删除链表的倒数第N个节点 | 链表，双指针 | 有关链表的操作可借助虚拟头节点使得操作更加方便，特别是删除操作，我们学要知道前一个节点，使用虚拟头节点就可以轻松处理包括头节点在内的节点删除。 ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0019.gif) |
 | 0020 | 有效的括号 | 字符串，栈 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0020.gif) |
 | 0024 | 两两交换链表中的节点 | 链表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0024.gif) |
 | 0026 | 删除排序数组中的重复项 | 数组，双指针 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0026.gif) |

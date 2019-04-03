@@ -21,10 +21,13 @@
 | 0076 | 最小覆盖子串 | 数组，双指针，滑动窗口，字符串，哈希表 |  |
 | 0080 | 删除排序数组中的重复项 II | 数组，双指针 |  |
 | 0088 | 合并两个有序数组 | 数组，双指针 | 归并排序中merge阶段的思想 |
+| 0094 | 二叉树的中序遍历 | 树，栈，哈希表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0094.gif) |
 | 0121 | 买卖股票的最佳时机 | 数组，动态规划 |  |
 | 0122 | 买卖股票的最佳时机 II | 数组，贪心算法 | 峰谷法 |
 | 0125 | 验证回文串 | 字符串，双指针（对撞指针） |  |
 | 0136 | 只出现一次的数字 | 数学，哈希表 | 异或运算(^) ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0136.gif) |
+| 0144 | 二叉树的前序遍历 | 树，栈 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0144.gif) |
+| 0144 | 二叉树的后序遍历 | 树，栈 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0145.gif) |
 | 0167 | 两数之和 II：输入有序数组 | 数组，双指针（对撞指针，滑动窗口），二分查找 |  |
 | 0169 | 求众数 | 数组，分治算法 | 摩尔投票算法 |
 | 0189 | 旋转数组 | 数组 |  |

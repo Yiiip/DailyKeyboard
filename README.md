@@ -22,6 +22,9 @@
 | 0080 | 删除排序数组中的重复项 II | 数组，双指针 |  |
 | 0088 | 合并两个有序数组 | 数组，双指针 | 归并排序中merge阶段的思想 |
 | 0094 | 二叉树的中序遍历 | 树，栈，哈希表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0094.gif) |
+| 0098 | 验证二叉搜索树 | 树，深度优先搜索 |  |
+| 0102 | 二叉树的层次遍历 | 树，广度优先搜索 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0102.gif) |
+| 0107 | 二叉树的层次遍历 II | 树，广度优先搜索 |  |
 | 0121 | 买卖股票的最佳时机 | 数组，动态规划 |  |
 | 0122 | 买卖股票的最佳时机 II | 数组，贪心算法 | 峰谷法 |
 | 0125 | 验证回文串 | 字符串，双指针（对撞指针） |  |

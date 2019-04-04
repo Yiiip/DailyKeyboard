@@ -24,7 +24,7 @@
 | 0094 | 二叉树的中序遍历 | 树，栈，哈希表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0094.gif) |
 | 0098 | 验证二叉搜索树 | 树，深度优先搜索 |  |
 | 0102 | 二叉树的层次遍历 | 树，广度优先搜索 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0102.gif) |
-| 0107 | 二叉树的层次遍历 II | 树，广度优先搜索 |  |
+| 0107 | 二叉树的层次遍历 II | 树，广度优先搜索 | 除递归外，深度遍历可用栈，广度遍历可用队列 |
 | 0121 | 买卖股票的最佳时机 | 数组，动态规划 |  |
 | 0122 | 买卖股票的最佳时机 II | 数组，贪心算法 | 峰谷法 |
 | 0125 | 验证回文串 | 字符串，双指针（对撞指针） |  |

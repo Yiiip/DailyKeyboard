@@ -20,6 +20,7 @@
 | 0075 | 颜色分类 | 数组，双指针（对撞指针），排序 | 计数排序 或 三路快排 ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0075.gif) |
 | 0076 | 最小覆盖子串 | 数组，双指针，滑动窗口，字符串，哈希表 |  |
 | 0080 | 删除排序数组中的重复项 II | 数组，双指针 |  |
+| 0083 | 删除排序链表中的重复元素 | 链表 |  |
 | 0088 | 合并两个有序数组 | 数组，双指针 | 归并排序中merge阶段的思想 |
 | 0094 | 二叉树的中序遍历 | 树，栈，哈希表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0094.gif) |
 | 0098 | 验证二叉搜索树 | 树，深度优先搜索 |  |

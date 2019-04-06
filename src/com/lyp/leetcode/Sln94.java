@@ -66,4 +66,10 @@ public class Sln94 {
 
         return results;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new Sln94().inorderTraversal_2(
+                TreeNode.arrayToTreeNode(new Integer[] { 1, null, 2, 3 })
+        ));
+    }
 }

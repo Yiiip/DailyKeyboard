@@ -18,6 +18,7 @@ package com.lyp.leetcode;
  */
 
 import com.lyp.leetcode.common.TreeNode;
+import com.lyp.leetcode.common.TreeNodeCommand;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,5 +74,39 @@ public class Sln145 { //非递归有点难
             res.add(0, node.val); //逆序添加结点值
         }
         return res;
+    }
+
+    //前中后遍历通用，易
+    public List<Integer> postorderTraversal_3(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        if(root == null)
+            return res;
+        Stack<TreeNodeCommand> stack = new Stack<TreeNodeCommand>();
+        stack.push(new TreeNodeCommand("move", root));
+        while(!stack.isEmpty())
+        {
+            TreeNodeCommand nodeCmd = stack.pop();
+            if (nodeCmd.cmd.equals("print"))
+            {
+                res.add(nodeCmd.node.val);
+            }
+            else if (nodeCmd.cmd.equals("move"))
+            {
+                //这句话可根据前中后遍历的需要自行调整位置即可
+                stack.push(new TreeNodeCommand("print", nodeCmd.node));
+
+                if (nodeCmd.node.right != null)
+                    stack.push(new TreeNodeCommand("move", nodeCmd.node.right));
+                if (nodeCmd.node.left != null)
+                    stack.push(new TreeNodeCommand("move", nodeCmd.node.left));
+            }
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Sln145().postorderTraversal_3(
+                TreeNode.arrayToTreeNode(new Integer[] { 1, null, 2, 3 })
+        ));
     }
 }

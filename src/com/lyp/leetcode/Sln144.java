@@ -63,4 +63,9 @@ public class Sln144 {
         return ret;
     }
 
+    public static void main(String[] args) {
+        System.out.println(new Sln144().preorderTraversal_2(
+            TreeNode.arrayToTreeNode(new Integer[] { 1, null, 2, 3 })
+        ));
+    }
 }

@@ -50,6 +50,7 @@
 | 0290 | 单词模式 | 哈希表，字符串 | 关联题0205 |
 | 0344 | 反转字符串 | 字符串，双指针（对撞指针） | ![png](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0344.png) |
 | 0345 | 反转字符串中的元音字母 | 字符串，双指针（对撞指针） |  |
+| 0347 | 前K个高频元素 | 堆，哈希表 |  |
 | 0349 | 两个数组的交集 | 数组，双指针，哈希表，排序，二分查找 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0349.gif) |
 | 0350 | 两个数组的交集 II | 数组，双指针，哈希表，排序，二分查找 | 哈希表计数统计 ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0350.gif) |
 | 0384 | 打乱数组 |  | 洗牌算法 |

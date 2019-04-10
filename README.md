@@ -6,6 +6,7 @@
 | :--: | :------ | :-- | :--- |
 | 0001 | 两数之和 | 数组，哈希表 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0001.gif) |
 | 0003 | 无重复字符的最长子串 | 字符串，双指针，查找表，滑动窗口（不固定长度） | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0003.gif) 由于查找表数据量很少，直接使用array而不是Set了 |
+| 0009 | 回文数 | 数学 |  |
 | 0011 | 盛最多水的容器 | 数组，双指针 |  |
 | 0015 | 三数之和 | 数组，双指针 | ①在有序的情况下，遍历时注意和前一相比较以跳过重复项<br/>②本题有序的情况下，while(l < r)就成了根据大小而变的滑动窗口 |
 | 0016 | 最接近的三数之和 | 数组，双指针 |  |

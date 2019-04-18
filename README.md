@@ -64,3 +64,4 @@
 | 0451 | 根据字符出现频率排序 | 哈希表，字符串，堆 |  |
 | 0454 | 四数相加 II | 哈希表，二分查找 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0454.gif) |
 | 0724 | 寻找数组的中心索引 | 数组，求和 |  |
+| 0804 | 唯一摩尔斯密码词 | 字符串，集合 |  |

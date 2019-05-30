@@ -34,6 +34,7 @@
 | 0122 | 买卖股票的最佳时机 II | 数组，贪心算法 | 峰谷法 |
 | 0125 | 验证回文串 | 字符串，双指针（对撞指针） |  |
 | 0136 | 只出现一次的数字 | 数学，哈希表 | 异或运算(^) ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0136.gif) |
+| 0141 | 环形链表 | 链表，双指针（快慢），哈希表 |  |
 | 0144 | 二叉树的前序遍历 | 树，栈 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0144.gif) |
 | 0144 | 二叉树的后序遍历 | 树，栈 | ![gif](https://github.com/Yiiip/DailyKeyboard/blob/master/res/leetcode/images/0145.gif) |
 | 0167 | 两数之和 II：输入有序数组 | 数组，双指针（对撞指针，滑动窗口），二分查找 |  |

@@ -45,4 +45,10 @@ public class Sln3 {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new Sln3().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new Sln3().lengthOfLongestSubstring("bbbbb"));
+        System.out.println(new Sln3().lengthOfLongestSubstring("pwwkew"));
+    }
 }
